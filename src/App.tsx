@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div>
-        Fix for flex with span that is not shrinking, by using "min-width" on
+        Fix for flex with span that is not shrinking, by using "min-width: 0" on
         flex (default is "auto")
       </div>
       <div
