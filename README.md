@@ -7,3 +7,5 @@ Fix for flex container with a flex child that has content that is not shrinking 
     </div>
   </div>
 ```
+
+[codesandbox](https://codesandbox.io/s/fix-flex-element-not-shrinking-qg6gx) example
