@@ -8,17 +8,27 @@ export default function App() {
         Fix for flex with span that is not shrinking, by using "min-width: 0" on
         flex (default is "auto")
       </div>
-
-      <div style={{ display: "flex", minWidth: 0, backgroundColor: "red" }}>
-        <span
-          style={{
-            whiteSpace: "nowrap",
-            overflow: "hidden",
-            textOverflow: "ellipsis"
-          }}
-        >
-          123456789123456789123456789123456789123456789123456789123456789123456789
-        </span>
+      <div
+        style={{
+          display: "flex",
+          backgroundColor: "yellow",
+          width: "100%",
+          justifyContent: "space-between",
+          flexWrap: "nowrap",
+          boxSizing: "border-box"
+        }}
+      >
+        <div style={{ display: "flex", minWidth: 0, backgroundColor: "red" }}>
+          <span
+            style={{
+              whiteSpace: "nowrap",
+              overflow: "hidden",
+              textOverflow: "ellipsis"
+            }}
+          >
+            123456789123456789123456789123456789123456789123456789123456789123456789
+          </span>
+        </div>
       </div>
     </div>
   );
